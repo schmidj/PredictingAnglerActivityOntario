@@ -1,4 +1,4 @@
-# 🚀 Predicting recreational angler behavior in Ontario, Canada
+# 🚀 Predicting recreational angler activity in Ontario, Canada
 
 ## 📖 Description
 This project predicts angler behavior using machine learning models and citizen science data.
