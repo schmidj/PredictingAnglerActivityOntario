@@ -41,7 +41,7 @@ start = time.time()
 pd.set_option('display.max_columns', None)
 
 # Switches
-manual_input = True
+manual_input = False
 feature_importance = False
 
 # Input file
