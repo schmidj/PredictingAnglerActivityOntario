@@ -270,11 +270,6 @@ def ComputeWriteStatisticsClassification(MLmodel, trueval, predicval, tarvar, sc
 
     return accuracy, confmatrix, precision, recall, fscore
 
-def GetDiscretizer(data, nbins, disc_strategy_tar):
-    est = KBinsDiscretizer(n_bins=nbins, encode='ordinal', strategy=disc_strategy_tar)
-    est.fit(data)
-    return est
-
 def ClassifyRegression(trueval, predicval):
     # get discretization boundaries based on number of bins and values of target variable in training set
     accuracy = metrics.accuracy_score(trueval, predicval)
