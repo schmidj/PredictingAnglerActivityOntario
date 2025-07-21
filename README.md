@@ -1,7 +1,7 @@
-# 🚀 Predicting recreational angler activity in Ontario, Canada
+# 🚀 Predicting recreational angler effort in Ontario, Canada
 
 ## 📖 Description
-This project predicts angler behavior using machine learning models and citizen science data.
+This project predicts angler effort using machine-learning models and angler-reported, environmental and economic data.
 
 ## 🛠️ Installation
 1. Clone the repository:
@@ -10,12 +10,11 @@ This project predicts angler behavior using machine learning models and citizen 
    cd repository
 
 ## 🚀 Usage
-Still missing
+TBD
 
 ## Features
-📊 Predicts angler behavior based on historical data
-🌍 Uses environmental data for accuracy
-📡 API support for real-time predictions
+📊 Predicts angler boat presence and boat counts at lakes in Ontario
+🌍 Model features include environmental data and angler app data
 
 📬 Contact
 GitHub: @schmidj
